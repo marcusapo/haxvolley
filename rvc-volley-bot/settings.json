@@ -1,0 +1,293 @@
+{
+  "roomName": "🏐   | Vôlei X6 | HaxVolley |   🤾‍♀️",
+  "geo": { "lat": -22, "lon": -43, "code": "ES" },
+  "maxPlayers": 30,
+  "discordLink": "https://discord.gg/x5JrcCcj",
+  "discordRegistredRoleId": "1332461729585827840",
+  "discordGuildId": "1329541240441540618",
+  "discordJoinLog": "1332460308945702963",
+  "discordChatLog": "1332460289530265691",
+  "defaultBallColor": "FFCC00",
+  "discordIntegrationRoles": {
+    "diretor": "1336159731059789905",
+    "moderador": "1332465937726832711",
+    "booster": "1338186660466135040",
+    "toxico": "1334146520525570108"
+  },
+  "ultraBlackWordsList": [
+    "estuprado",
+    "estrupado",
+    "estupro",
+    "estrupo",
+    "estuprador",
+    "estrupador",
+    "seu macaco",
+    "preto fudido",
+    "senzala",
+    "estuprar",
+    "estrupar",
+    "estrupei",
+    "estuprei",
+    "preto de merda",
+    "negro fudido",
+    "negruinho",
+    "negrinho"
+  ],
+  "blackWordsList": [
+    "seu fudido",
+    "seu arrombado",
+    "seu fdp",
+    "vai tomar no seu cu",
+    "vsf lixo",
+    "viadinho",
+    "seu horrivel",
+    "tu é mt ruim",
+    "seu lixo",
+    "vtmnc arrombado",
+    "aborto",
+    "seu merda",
+    "buceta da"
+  ],
+  "mapSettings": {
+    "volleyx3": {
+      "ballRadius": 6,
+      "mapX": 500,
+      "mapY": 200
+    },
+    "volleyx6": {
+      "ballRadius": 6,
+      "mapX": 600,
+      "mapY": 300
+    }
+  },
+  "afkTimeLimit": 15,
+  "mapPlayers": 6,
+  "minAutoPlayers": 3,
+  "discordRecordingChannel": "1330265949366128750",
+  "gameMode": {
+    "defaultDownRate": 0.2,
+    "maxBallRadius": 15,
+    "intouchableBallHeight": 14,
+    "servePosition": {
+      "volleyx3": {
+        "player": {
+          "x": -680,
+          "y": 130
+        },
+        "ball": {
+          "x": -630,
+          "y": 130
+        },
+        "fastPlayer": {
+          "x": -770,
+          "y": 130
+        },
+        "fastBall": {
+          "x": -730,
+          "y": 130
+        }
+      },
+      "volleyx6": {
+        "player": {
+          "x": -680,
+          "y": 230
+        },
+        "ball": {
+          "x": -630,
+          "y": 230
+        },
+        "fastPlayer": {
+          "x": -770,
+          "y": 230
+        },
+        "fastBall": {
+          "x": -730,
+          "y": 230
+        }
+      }
+    },
+    "phases": {
+      "volleyx3": {
+        "serve": {
+          "invMass": 2,
+          "increaseRate": 0.4,
+          "height": 7,
+          "color": null
+        },
+        "fastServeTouch": {
+          "invMass": 0.3,
+          "increaseRate": 0.4,
+          "height": 7,
+          "color": null
+        },
+        "fastServeCurve": {
+          "invMass": 2.5,
+          "increaseRate": 0.3,
+          "height": 0,
+          "color": "00aaff"
+        },
+        "fastServe": {
+          "invMass": 2.5,
+          "increaseRate": 0.3,
+          "height": 0,
+          "color": null
+        },
+        "serveReception": {
+          "invMass": 2,
+          "increaseRate": 0.2,
+          "height": 2,
+          "color": null
+        },
+        "reception": {
+          "invMass": 0.8,
+          "increaseRate": 0.25,
+          "height": 8,
+          "color": null
+        },
+        "receptionBlock": {
+          "invMass": 1.2,
+          "increaseRate": 0.2,
+          "height": 8,
+          "color": null
+        },
+        "levant": {
+          "invMass": 0.6,
+          "increaseRate": 0.25,
+          "height": 6,
+          "color": null
+        },
+        "levantFast": {
+          "invMass": 1.6,
+          "increaseRate": 0.6,
+          "height": 0,
+          "color": "37ff00"
+        },
+        "attack": {
+          "invMass": 1.8,
+          "increaseRate": 0.4,
+          "height": 0,
+          "color": "ff4400"
+        },
+        "block": {
+          "invMass": 0.8,
+          "increaseRate": 0.4,
+          "height": 2,
+          "color": null
+        },
+        "offBlock": {
+          "invMass": 0.6,
+          "increaseRate": 0.4,
+          "height": 0,
+          "color": null
+        }
+      },
+      "volleyx6": {
+        "serve": {
+          "invMass": 3,
+          "increaseRate": 0.6,
+          "height": 5,
+          "color": null
+        },
+        "fastServeTouch": {
+          "invMass": 0.3,
+          "increaseRate": 0.4,
+          "height": 10,
+          "color": null
+        },
+        "fastServe": {
+          "invMass": 3,
+          "increaseRate": 0.2,
+          "height": 0,
+          "color": null
+        },
+        "fastServeCurve": {
+          "invMass": 2.9,
+          "increaseRate": 0.3,
+          "height": 0,
+          "color": "00aaff"
+        },
+        "serveReception": {
+          "invMass": 2,
+          "increaseRate": 0.2,
+          "height": 2,
+          "color": null
+        },
+        "reception": {
+          "invMass": 1.2,
+          "increaseRate": 0.2,
+          "height": 8,
+          "color": null
+        },
+        "receptionBlock": {
+          "invMass": 1.2,
+          "increaseRate": 0.2,
+          "height": 8,
+          "color": null
+        },
+        "levant": {
+          "invMass": 1,
+          "increaseRate": 0.25,
+          "height": 5,
+          "color": null
+        },
+        "levantFast": {
+          "invMass": 1.8,
+          "increaseRate": 2,
+          "height": 0,
+          "color": "37ff00"
+        },
+        "attack": {
+          "invMass": 2.2,
+          "increaseRate": 0.3,
+          "height": 0,
+          "color": "ff4400"
+        },
+        "block": {
+          "invMass": 0.8,
+          "increaseRate": 0.4,
+          "height": 2,
+          "color": null
+        },
+        "offBlock": {
+          "invMass": 0.7,
+          "increaseRate": 0.3,
+          "height": 0,
+          "color": null
+        }
+      }
+    },
+    "positions": {
+      "1": [[-220, 250]],
+      "2": [
+        [-400, 250],
+        [-100, -250]
+      ],
+      "3": [
+        [-400, 250],
+        [-240, -250],
+        [-50, 0]
+      ],
+      "4": [
+        [-400, 250],
+        [-400, -250],
+        [-80, -250],
+        [-80, 250]
+      ],
+      "5": [
+        [-470, 250],
+        [-470, -250],
+        [-230, -250],
+        [-50, 0],
+        [-230, 250]
+      ],
+      "6": [
+        [-470, 250],
+        [-170, 250],
+        [-50, 0],
+        [-170, -250],
+        [-470, -250],
+        [-270, 0]
+      ]
+    }
+  }
+}
